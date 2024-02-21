@@ -84,10 +84,29 @@ li.dropdown {
     background-color: var(--white);
     border-radius: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    margin: 5px 5px;
+    margin: 20px 5px;
+}
+.card .card-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.card .card-info .value{
+    color: rgb(125, 219, 125);
+    font-weight: bold;    
+}
+.card .card-info .value-paid {
+    color: rgb(255, 196, 0); 
+    font-weight: bold;   
+}
+.card .card-info #date{
+    color: rgb(96, 96, 96);
+    font-weight: bold;   
 }
 .card .card-img{
     position: relative;
+    height: 200px;
 }
 .card .card-img .location-background {
     position: absolute;
@@ -97,7 +116,7 @@ li.dropdown {
     border-radius: 50%;
     padding: 8px 8px 3px 8px;
 }
-.card .card-img #location-img {
+.card .card-img .location-img {
     width: 15px;
     height: 15px;
 }
